@@ -69,10 +69,6 @@ input[type="submit"] {
 
 /*********** PRODUCTS SECTION ***********/
 
-section {
-  border: 1px solid red;
-}
-
 .item-container {
   margin: auto;
   text-align: center;
