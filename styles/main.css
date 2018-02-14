@@ -1,3 +1,9 @@
+*  {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 body {
   font-size: 100%;
   font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
@@ -15,6 +21,7 @@ header {
 }
 
 img {
+  max-width: 100%;
   max-height: 20rem;
 }
 
@@ -70,14 +77,28 @@ input[type="submit"] {
 /*********** PRODUCTS SECTION ***********/
 
 .item-container {
+  width: 80%;
   margin: auto;
-  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
 }
 
 .item {
+  border: 1px solid red;
   width: 33%;
+  height: 500px;
   margin: auto;
+  text-align: center;
   padding: 1rem 0;
+}
+
+/** Changing items to show in columns for medium and small screens **/
+@media all and (max-width: 800px) {
+  .item-container {
+    flex-direction: column;
+  }
 }
 
 h2 {
