@@ -87,7 +87,7 @@ input[type="submit"] {
 
 .item {
   border: 1px solid red;
-  width: 33%;
+  width: 33.333%;
   height: 500px;
   margin: auto;
   text-align: center;
@@ -98,6 +98,9 @@ input[type="submit"] {
 @media all and (max-width: 800px) {
   .item-container {
     flex-direction: column;
+  }
+  .item {
+    width: 100%;
   }
 }
 
@@ -112,4 +115,12 @@ h3 {
   font-size: 1.2rem;
   text-align: center;
   color: #2d2d2d;
+}
+
+/*********** FOOTER SECTION ***********/
+
+footer {
+  height: 10rem;
+  background-color: whitesmoke;
+  margin-top: 2rem;
 }
