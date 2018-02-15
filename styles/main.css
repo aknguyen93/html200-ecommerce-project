@@ -50,9 +50,7 @@ nav li {
 
 /**************** HERO *****************/
 
-header img {
-  max-height: 7rem;
-}
+
 
 h1 .logo-w {
   font-size: 3rem;
@@ -86,12 +84,11 @@ input[type="submit"] {
 }
 
 .item {
-  border: 1px solid red;
   width: 33.333%;
   height: 500px;
   margin: auto;
   text-align: center;
-  padding: 1rem 0;
+  padding: 1rem;
 }
 
 /** Changing items to show in columns for medium and small screens **/
