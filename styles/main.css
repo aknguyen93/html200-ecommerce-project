@@ -15,50 +15,53 @@ p {
   color: #2d2d2d;
 }
 
-/* TODO: size images manually so this is not necessary */
-header {
-  background-color: gainsboro;
+a {
+  color: black;
+  text-decoration: none;
 }
 
-img {
-  max-width: 100%;
-  max-height: 20rem;
+/********** HEADER ***********/
+header {
+  background-color: gainsboro;
 }
 
 /***************** NAV *****************/
 
 nav {
-  width: 100%;
+  width: 75%;
+  margin: auto;
   padding-bottom: 0.5rem;
   text-align: center;
 }
 
-nav a {
-  text-decoration: none;
-  color: black;
+nav a:hover {
+  color: darkgrey;
 }
 
-nav a:hover {
-  text-decoration: underline;
-  color: darkgrey;
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
 }
 
 nav li {
   display: inline;
-  padding: 0 4rem;
+  padding: 0.5rem;
 }
 
 /**************** HERO *****************/
 
-
-
 h1 .logo-w {
-  font-size: 3rem;
+  font-size: 4rem;
   color: whitesmoke;
 }
 
 h1 {
   color: whitesmoke;
+  font-size: 3rem;
+  float: right;
 }
 
 /**************** ASIDE ****************/
@@ -84,21 +87,15 @@ input[type="submit"] {
 }
 
 .item {
-  width: 33.333%;
   height: 500px;
   margin: auto;
   text-align: center;
   padding: 1rem;
 }
 
-/** Changing items to show in columns for medium and small screens **/
-@media all and (max-width: 800px) {
-  .item-container {
-    flex-direction: column;
-  }
-  .item {
-    width: 100%;
-  }
+.item-container img {
+  max-width: 100%;
+  max-height: 20rem;
 }
 
 h2 {
@@ -120,4 +117,32 @@ footer {
   height: 10rem;
   background-color: whitesmoke;
   margin-top: 2rem;
+}
+
+/*********** MEDIA QUERIES ***********/
+@media (min-width: 901px) {
+  .item {
+    width: 33.3%;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 900px) {
+  .item-container {
+    width: 95%;
+  }
+  .item {
+    width: 50%;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 500px) {
+  .item {
+    width: 100%;
+    flex-direction: column;
+  }
+  nav ul {
+    flex-direction: column;
+  }
 }
