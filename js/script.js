@@ -52,3 +52,8 @@ var products = [
   }
 ]
 
+// WEEK 8 HOMEWORK
+
+function addCart(message){
+  console.log("You got" + message + " in your cart")
+}
