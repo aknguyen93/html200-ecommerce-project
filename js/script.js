@@ -73,3 +73,7 @@ function addCart(click){
     console.log(cart.length)
   }
 }
+
+function total(){
+  console.log("In your cart, you have: " + cart)
+}
