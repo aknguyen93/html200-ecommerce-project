@@ -54,6 +54,22 @@ var products = [
 
 // WEEK 8 HOMEWORK
 
-function addCart(message){
-  console.log("You got" + message + " in your cart")
+var cart = [];
+
+function addCart(click){
+  event.preventDefault()
+  
+  var item = click
+  
+  // see if value is already in cart
+  var i = cart.indexOf(item)
+  
+  // if not, insert value into cart; otherwise remove from cart
+  if(i == -1){
+    cart.push(item)
+    console.log(cart.length)
+  } else {
+    cart.pop(item)
+    console.log(cart.length)
+  }
 }
