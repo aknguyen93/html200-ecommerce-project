@@ -52,6 +52,9 @@ nav li {
 }
 
 /**************** HERO *****************/
+header img {
+  
+}
 
 h1 .logo-w {
   font-size: 4rem;
@@ -83,15 +86,17 @@ input[type="submit"] {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-evenly;
   align-items: flex-start;
 }
 
 .item {
-  height: 500px;
-  margin: auto;
   text-align: center;
   padding: 1rem;
-  border: 1px solid red;
+}
+
+.item p {
+  padding: 1rem;
 }
 
 .item-container img {
@@ -107,9 +112,17 @@ h2 {
 }
 
 h3 {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   text-align: center;
-  color: #2d2d2d;
+  color: burlywood;
+  padding: 0 0 1rem 0;
+}
+
+button {
+  background-color: skyblue;
+  color: white;
+  padding: .25rem 2rem;
+  font-size: 1rem;
 }
 
 /*********** FOOTER SECTION ***********/
