@@ -70,3 +70,38 @@ Each weekly assignment will be graded independently. There will not be a final g
 
 ## Testing
 [update this section with information about the testing steps you took to ensure site quality]
+
+The expected/inteded audience for Winter Wear Warehouse website would be for mostly fashionable females (more than males), ranging from ages 18-40, who live in cold weather, with a higher than average income since our scarves are on the pricier side.
+
+The devices they might use (from greatest to least) would be mobile devices (such as iPhones, Androids, etc.), tablets, then Desktops running either Microsoft Windows or Mac OS X since those are one of the top/common operating system.
+
+To test the responsiveness of my devices across different devices, I used the www.responsivedesignchecker.com. The mobile devices I checked my website on were iPhone 4, iPhone 7 plus, Samsung Galaxy and the Google Pixel. My findings show that my website looks very similar between the iPhone 7 Plus and the Google Pixel by showing one column of items, which was what I was aiming for. As for the Samsung Galazy, the website become even more narrower but seems to be just as responsive as the other two. Even on a smaller device, such as the iPhone 4, it still functioned as I anticipated.
+
+I also test my website with the tablet checkers. The tablets that I chose to run my website on were the Apple iPad Mini and pro and the Samsung Galaxy Tab 10. On the iPad mini, my website displayed two columns, which was what I wanted. Although it was responsive, increasing the font size in the navigation would be ideal because it seems a bit small and hard to read. Testing in on an iPad Pro, my website shows three columns. After seeing it on a wider tablet, the changes I would make is to making the side margins more narrow so that there isn't a lot of white space. On the Samsung Galaxy, it shows my website in two columns with a good amount of side margins.
+
+On desktops, I tested on a 15" Notebook, 20" Desktop, and a 24" Desktop. On the 15" and 20" desktops, they look very similar to what I see when creating the website. But on the 20" desktop, I would change it so that the items are spaced out more to fill up the space. Otherwise, the website is responsive on all three device sizes.
+
+To test how fast my website is working, I used www.webpagetest.org. Since most of the traffic will come from fashionable people in cold areas, I test my site for France (they get pretty chilly winters) on IE 11 via cable. My results were 1.558s load time with the first byte at 0.326s. I also checked my website for Toronto Canada on Chrome via cable (another chilly area during winter) and my findings were 1.323s load time with the first byte at 0.298s; which is a lot faster than France! To keep a controlled variable, I tested out another country running IE via cable: Dulles, Virginia. The results were 1.46s load time with the first byte at 0.292s; faster than France (same search engine) but slower than Canada.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
